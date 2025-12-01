@@ -333,6 +333,7 @@ hr{
     border-radius: 20px;
     border: none;
     font-size: 18px;
+    cursor: pointer;
 }
 .PortfolioButton:hover{
     background-color: #ff3f4f;
@@ -344,6 +345,7 @@ hr{
     border-radius: 20px;
     border: 2px solid #ff3f4f;
     font-size: 18px;
+    cursor: pointer;
 }
 #PortfolioButtonid:hover{
     background-color: #ff3f4f;
@@ -532,6 +534,7 @@ hr{
     align-items: center;
     gap: 190px;
     padding-top: 120px;
+    padding-bottom: 100px;
 }
 .icons{
     display: flex;
@@ -551,4 +554,210 @@ hr{
 .icons p{
     font-size: 25px;
     font-weight: 100;
+}
+#testimonialSection{    
+    padding-top: 30px;
+    padding-left: 95px;
+}
+#testimonialSectionMain{
+    display: flex;
+    gap: 110px;
+}
+#testimonialSection h1{
+    font-size:65px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+}
+#testimonialTxt{
+    font-size: 19px;
+    color: #e64350;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#testimonialSection p{
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+#commentSection{
+    background-color: #1e2031;
+    height: 220px;
+    width: 600px;
+    margin-top:80px;
+    display: flex;
+    gap: 20px;
+}
+#commentSection i{
+    color: grey;
+    font-size: 40px;
+    padding-left: 39px;
+    padding-top: 30px;
+}
+#commentSection p{
+    font-style: italic;
+    color: gray;
+    padding-top: 40px;
+    font-size: 20px;
+    line-height: 30px;
+}
+#coments i{
+    padding-left: 0px;
+    color: #e64350;
+    font-size: 10px;
+    padding-top: 0px;
+}
+#profile{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+#founders {
+    margin-top: 50px;
+  display: flex;
+  align-items: center;  
+  gap: 20px;             
+}
+
+.profilePic {
+  background: url(ceo.jpg);
+  width: 75px;
+  height: 75px;
+  border: 3px solid #fff;
+  border-radius: 50%;    
+  background-size: cover;
+  background-position: center;
+}
+#ceoName{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#founders h4{
+  margin: 0;
+}
+#founders p {
+  margin: 0;
+}
+#companiesLogos{
+    background-color: #1e2031;
+    padding-left: 180px;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 100px;
+    margin-top: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+#companiesLogos img{
+    /* filter: grayscale(100%) brightness(1.3); */
+    height: 32px;
+}
+#companiesLogos img:hover{
+    height: 36px;
+    cursor: pointer;
+}
+#latestPost{
+    padding-top: 50px;
+    padding-left: 95px;
+}
+#latestPostTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#postTxt{
+    color: #ff3f4f;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+#latestPostTxt h1{
+    font-size: 65px;
+    font-weight: bolder;
+    margin-bottom: 38px;
+}
+#postText{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.postImg{
+    height: 230px;
+    width: 360px;
+    border-radius: 9px 9px 0px 0px;
+}
+.post{
+    background-color: #1e2031;
+    height: 410px;
+    width: 360px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.15);
+    border-radius: 9px 9px 9px 9px;
+}
+#postIcon{
+    display: flex;
+    margin-top: 25px;
+    padding-left: 25px;
+    gap: 10px;
+}
+#postIcon p{
+    font-size: 14px;
+    font-weight: 500;
+}
+#postIcon i{
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+#admin{
+    color: #e64350;
+    font-size: 14px;
+    font-weight: 900;
+}
+.h3Section{
+    padding-top: 25px;
+    padding-left: 25px;
+    line-height: 30px;
+    transition: 0.4s ease;
+}
+.h3Section h3:hover{
+    color: #e64350;
+    cursor: pointer;
+
+}
+#postCards{
+    display: flex;
+    gap: 20px;
+    margin-top: 45px;
+}
+.readMore{
+    padding-left: 25px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.readMore i{
+    color: #e64350;
+    cursor: pointer;
+}
+.readMore i:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.readMore a{
+    color: #e64350;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 0;
+}
+.readMore a:hover{
+    color: #fff;
+}
+.readMore:hover{
+    gap: 9px;
 }
